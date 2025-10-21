@@ -1,6 +1,6 @@
 /* Color variables */
 :root {
-  --light-gray: #cbcbcb;
+  --light-gray: #f7f7f7;
   --white: #ffffff;
   --dark: #050505;
   --secondary-dark: #1a1a1a;
@@ -12,12 +12,13 @@ html {
 }
 
 body {
-  background-color: var(--dark);
+  background-color: var(--white);
   font-family: "Roboto Flex", sans-serif;
 }
 
 h1,
-h5 {
+h5,
+h2 {
   font-family: "Orbitron", sans-serif;
   font-weight: 900;
 }
