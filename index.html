@@ -32,13 +32,13 @@
     />
   </head>
 
-  <body>
+  <body id="home">
     <header class="border-bottom border-secondary fixed-top bg-black">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
           <a
             class="navbar-brand fw-bold"
-            style="color: var(--white)"
+            style="color: var(--white); font-family: 'Orbitron', sans-serif"
             href="#home"
           >
             <img
@@ -89,7 +89,7 @@
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
             data-bs-scroll="true"
-            style="--bs-offcanvas-width: 250px"
+            style="--bs-offcanvas-width: 280px"
           >
             <div class="offcanvas-header">
               <img
@@ -130,7 +130,7 @@
     </header>
     <main class="py-5">
       <!-- Introduction Section -->
-      <section>
+      <section style="background-color: var(--dark)">
         <div class="container py-4">
           <div class="row">
             <div
@@ -143,6 +143,7 @@
                 src="assets/img/header_img.png"
                 alt="Redmagic 11 Pro+"
                 class="img-fluid"
+                style="max-width: 1200px; width: 100%; height: auto"
               />
             </div>
           </div>
@@ -150,10 +151,14 @@
       </section>
 
       <!-- Highlights Section -->
-      <section style="background-color: var(--white)" id="highlights">
+      <section
+        class="my-4"
+        style="background-color: var(--white)"
+        id="highlights"
+      >
         <div class="container">
-          <div class="row">
-            <div class="col-12 text-start py-4">
+          <div class="row" style="background-color: var(--light-gray)">
+            <div class="col-12 text-start p-5">
               <h1 class="fw-bold" style="color: var(--dark)">
                 REDMAGIC 11 PRO+
               </h1>
@@ -163,11 +168,34 @@
                   src="assets/img/red_magic_11_pro_main.png"
                   alt="red_magic_11_pro_main"
                   class="img-fluid"
+                  width="100%"
                   style="max-width: 1080px"
                 />
               </div>
             </div>
           </div>
+          <div class="row my-4 p-5" style="background-color: var(--light-gray)">
+            <div
+              class="col-12 col-md-6 justify-content-center align-items-center d-flex flex-column text-center"
+            >
+              <h2 style="color: var(--dark); font-size: 2 rem">
+                7500 mAh Battery
+              </h2>
+              <p style="font-size: 1.25rem; color: var(--dark)">
+                Long-lasting power for all-day gaming and productivity.
+              </p>
+            </div>
+
+            <div class="col-12 col-md-6 text-center">
+              <img
+                src="assets/img/battery.webp"
+                alt="battery"
+                class="img-fluid"
+                style="max-width: 480px; width: 100%; height: auto"
+              />
+            </div>
+          </div>
+          <div class="row my-4"></div>
         </div>
       </section>
     </main>
