@@ -132,13 +132,13 @@
       <!-- Introduction Section -->
       <section style="background-color: var(--dark)">
         <div class="container py-4">
-          <div class="row">
+          <div class="row align-items-center">
             <div
-              class="col-12 col-md-4 text-center justify-content-center align-items-center d-flex"
+              class="col-12 col-md-4 text-center text-md-start d-flex justify-content-center justify-content-md-start align-items-center"
             >
-              <h1>REDMAGIC 11 Pro+</h1>
+              <h1 class="fw-bold text-white mb-0">REDMAGIC 11 Pro+</h1>
             </div>
-            <div class="col-12 col-md-8">
+            <div class="col-12 col-md-8 text-center">
               <img
                 src="assets/img/header_img.png"
                 alt="Redmagic 11 Pro+"
@@ -152,40 +152,51 @@
 
       <!-- Highlights Section -->
       <section
-        class="my-4"
+        class="my-5"
         style="background-color: var(--white)"
         id="highlights"
       >
         <div class="container">
-          <div class="row" style="background-color: var(--light-gray)">
-            <div class="col-12 text-start p-5">
-              <h1 class="fw-bold" style="color: var(--dark)">
+          <!-- Header Section -->
+          <div class="row shadow-sm mb-4 bg-white align-items-center py-4">
+            <div class="col-12 text-center">
+              <h1 class="fw-bold mb-2" style="color: var(--dark)">
                 REDMAGIC 11 PRO+
               </h1>
-              <h3 style="color: var(--dark)">Flagship gaming smartphone</h3>
-              <div class="d-flex justify-content-center">
-                <img
-                  src="assets/img/red_magic_11_pro_main.png"
-                  alt="red_magic_11_pro_main"
-                  class="img-fluid"
-                  width="100%"
-                  style="max-width: 1080px"
-                />
-              </div>
+              <h3 class="mb-4" style="color: var(--dark)">
+                Flagship Gaming Smartphone
+              </h3>
+              <img
+                src="assets/img/red_magic_11_pro_main.png"
+                alt="red_magic_11_pro_main"
+                class="img-fluid"
+                style="max-width: 1080px; width: 100%; height: auto"
+              />
             </div>
           </div>
-          <div class="row my-4 p-5" style="background-color: var(--light-gray)">
-            <div
-              class="col-12 col-md-6 justify-content-center align-items-center d-flex flex-column text-center"
-            >
-              <h2 style="color: var(--dark); font-size: 2 rem">
+
+          <!-- Battery Section -->
+          <div
+            class="row align-items-center shadow-sm mb-4 bg-white py-4 py-md-5 px-3"
+          >
+            <div class="col-12 col-md-6 text-center text-md-start mb-4 mb-md-0">
+              <h2
+                class="fw-bold mb-3"
+                style="color: var(--dark); font-size: 2rem"
+              >
                 7500 mAh Battery
               </h2>
-              <p style="font-size: 1.25rem; color: var(--dark)">
+              <p
+                style="
+                  font-size: 1.25rem;
+                  color: var(--dark);
+                  max-width: 480px;
+                  margin: 0 auto;
+                "
+              >
                 Long-lasting power for all-day gaming and productivity.
               </p>
             </div>
-
             <div class="col-12 col-md-6 text-center">
               <img
                 src="assets/img/full_battery.webp"
@@ -195,12 +206,16 @@
               />
             </div>
           </div>
-          <div class="row my-4">
+
+          <!-- Dual Specs Section -->
+          <div class="row g-4 mb-4">
             <div
-              class="col-12 col-md-6 text-center p-4"
-              style="background-color: var(--light-gray)"
+              class="col-12 col-md-6 p-4 py-5 shadow-sm d-flex flex-column justify-content-center align-items-center text-center bg-white"
             >
-              <h2 style="color: var(--dark); font-size: 1.5rem">
+              <h2
+                class="fw-semibold mb-3"
+                style="color: var(--dark); font-size: 1.5rem"
+              >
                 Qualcomm SM8850-AC Snapdragon 8 Elite Gen 5 (3 nm)
               </h2>
               <img
@@ -210,11 +225,14 @@
                 style="max-width: 480px; width: 100%; height: auto"
               />
             </div>
+
             <div
-              class="col-12 col-md-6 text-center p-4"
-              style="background-color: var(--light-gray)"
+              class="col-12 col-md-6 p-4 py-5 shadow-sm d-flex flex-column justify-content-center align-items-center text-center bg-white"
             >
-              <h2 style="color: var(--dark); font-size: 1.5rem">
+              <h2
+                class="fw-semibold mb-3"
+                style="color: var(--dark); font-size: 1.5rem"
+              >
                 50 MP Ultra Wide Triple Camera System
               </h2>
               <img
@@ -222,6 +240,83 @@
                 alt="camera"
                 class="img-fluid"
                 style="max-width: 480px; width: 100%; height: auto"
+              />
+            </div>
+          </div>
+
+          <!-- Bento Layout Section -->
+          <div class="row g-4 align-items-stretch mb-4">
+            <!-- Left Large Box -->
+            <div class="col-12 col-md-6 d-flex">
+              <div
+                class="w-100 p-4 py-5 shadow-sm d-flex flex-column justify-content-center align-items-center text-center bg-white"
+              >
+                <h2
+                  class="fw-semibold mb-3"
+                  style="color: var(--dark); font-size: 1.5rem"
+                >
+                  6.85" AMOLED, 2000 nits (peak)
+                </h2>
+                <img
+                  src="assets/img/display.png"
+                  alt="display"
+                  class="img-fluid mx-auto d-block"
+                  style="max-width: 90%; height: auto"
+                />
+              </div>
+            </div>
+
+            <!-- Right Stacked Boxes -->
+            <div class="col-12 col-md-6 d-flex flex-column gap-4">
+              <!-- Top Small Box -->
+              <div
+                class="flex-fill p-4 py-5 shadow-sm d-flex flex-column justify-content-center align-items-center text-center bg-white"
+              >
+                <h2
+                  class="fw-semibold mb-3"
+                  style="color: var(--dark); font-size: 1.5rem"
+                >
+                  Active Cooling Fan and Liquid Metal VC Chamber
+                </h2>
+                <img
+                  src="assets/img/liquid-cooling.jpg"
+                  alt="liquid_cooling"
+                  class="img-fluid mx-auto"
+                  style="max-width: 380px; width: 100%; height: auto"
+                />
+              </div>
+
+              <!-- Bottom Small Box -->
+              <div
+                class="flex-fill p-4 py-5 shadow-sm d-flex flex-column justify-content-center align-items-center text-center bg-white"
+              >
+                <h2
+                  class="fw-semibold mb-3"
+                  style="color: var(--dark); font-size: 1.5rem"
+                >
+                  RedMagic OS – Seamless Gaming Experience
+                </h2>
+                <img
+                  src="assets/img/redmagic-os.jpg"
+                  alt="redmagic os"
+                  class="img-fluid"
+                  style="max-width: 400px; width: 100%; height: auto"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Refresh Rate Section -->
+          <div class="row shadow-sm mb-4 bg-white">
+            <div class="col-12 text-center py-4 py-md-5">
+              <h2 class="fw-bold mb-3" style="color: var(--dark)">
+                Ultra-smooth 144Hz Refresh Rate
+              </h2>
+              <img
+                src="assets/img/refresh-rate.jpg"
+                alt="refresh rate"
+                class="img-fluid"
+                style="max-width: 1080px; width: 100%; height: auto"
               />
             </div>
           </div>
