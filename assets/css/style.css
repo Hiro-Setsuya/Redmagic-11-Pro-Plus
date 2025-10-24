@@ -34,3 +34,26 @@ a,
 span {
   color: var(--white);
 }
+
+#specsAccordion {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  #specsAccordion {
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  #specsAccordion {
+    width: 800px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #specsAccordion {
+    width: 900px;
+  }
+}
