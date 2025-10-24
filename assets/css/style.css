@@ -118,3 +118,28 @@ span {
 #designCarousel .carousel-control-next:hover {
   background-color: var(--secondary-dark);
 }
+
+
+/* Fade-in-up animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Base state (invisible) */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* When element is visible */
+.fade-in-up.visible {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
