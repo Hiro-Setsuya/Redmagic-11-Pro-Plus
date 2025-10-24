@@ -1,3 +1,5 @@
+/* style.css — Main styles for Redmagic-11-Pro-Plus: color variables, carousel, layout, and fade-in animation */
+
 /* Color variables */
 :root {
   --light-gray: #f7f7f7;
@@ -118,7 +120,6 @@ span {
 #designCarousel .carousel-control-next:hover {
   background-color: var(--secondary-dark);
 }
-
 
 /* Fade-in-up animation */
 @keyframes fadeInUp {
