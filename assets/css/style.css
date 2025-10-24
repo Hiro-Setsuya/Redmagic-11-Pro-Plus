@@ -35,25 +35,29 @@ span {
   color: var(--white);
 }
 
-#specsAccordion {
+#specsAccordion,
+#designCarousel {
   width: 100%;
 }
 
 @media (min-width: 768px) {
-  #specsAccordion {
+  #specsAccordion,
+  #designCarousel {
     width: 600px;
     margin: 0 auto;
   }
 }
 
 @media (min-width: 1200px) {
-  #specsAccordion {
+  #specsAccordion,
+  #designCarousel {
     width: 800px;
   }
 }
 
 @media (min-width: 1400px) {
-  #specsAccordion {
+  #specsAccordion,
+  #designCarousel {
     width: 900px;
   }
 }
@@ -64,7 +68,7 @@ span {
   border-radius: 50%;
   opacity: 0.6;
   transition: all 0.3s ease;
-  border: 1px solid var(--dark); /* optional for visibility */
+  border: 1px solid var(--dark);
 }
 
 #designCarousel .carousel-indicators [data-bs-target]:nth-child(1) {
