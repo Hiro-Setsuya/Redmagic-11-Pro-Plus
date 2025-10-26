@@ -11,11 +11,35 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 60px;
+  overflow-x: hidden;
 }
 
 body {
   background-color: var(--white);
   font-family: "Roboto Flex", sans-serif;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent horizontal overflow */
+.container,
+.container-fluid,
+.row {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+section {
+  overflow-x: hidden;
 }
 
 h1,
